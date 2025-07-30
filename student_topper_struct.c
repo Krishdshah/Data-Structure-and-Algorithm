@@ -19,7 +19,7 @@ int main() {
 		scanf("%d", &stud_list[i].roll);
 
 		printf("Enter name of student %d:\n", i + 1);
-		scanf("%s", stud_list[i].name);
+		scanf("%s", &stud_list[i].name);
 
 		printf("Enter marks of student %d for subject 1:\n", i + 1);
 		scanf("%d", &stud_list[i].sub1_marks);

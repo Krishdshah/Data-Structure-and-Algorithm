@@ -3,14 +3,10 @@
 
 #define stud 10
 
-struct subjects {
-    int marks;
-};
-
 struct student {
     int reg_no;
     char name[30];
-    struct subjects s1[5];
+    int s1[5];
     int student_total;
 };
 
