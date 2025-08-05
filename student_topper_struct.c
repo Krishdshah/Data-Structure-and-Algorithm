@@ -11,10 +11,10 @@ struct students {
 };
 
 int main() {
-	struct students stud_list[5];
+	int stud=2;
+	struct students stud_list[stud];
 	int i;
-	
-	for (i = 0; i < 5; i++) {
+	for (i = 0; i < stud; i++) {
 		printf("Enter roll no of student %d:\n", i + 1);
 		scanf("%d", &stud_list[i].roll);
 
@@ -36,8 +36,9 @@ int main() {
 
 	int highest = -1;
 	char topper[30];
-
-	for (i = 0; i < 5; i++) {
+	printf("Details of students are:\n");
+	for (i = 0; i < stud; i++) {
+		printf("Student roll %d , name %s scored total marks %d [%d,%d,%d]\n\n",stud_list[i].roll,stud_list[i].name,stud_list[i].total_marks,stud_list[i].sub1_marks,stud_list[i].sub2_marks,stud_list[i].sub3_marks);
 		if (stud_list[i].total_marks > highest) {
 			highest = stud_list[i].total_marks;
 			strcpy(topper, stud_list[i].name);

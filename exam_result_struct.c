@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define stud 10
+#define stud 2
 
 struct student {
     int reg_no;
@@ -58,8 +58,8 @@ int main() {
 
                 for(l = 0; l < 5; l++) {
                     printf("Enter marks of student %d for subject %d:\n", k + 1, l + 1);
-                    scanf("%d", &dept_array[i].class_array[j].stud_array[k].s1[l].marks);
-                    dept_array[i].class_array[j].stud_array[k].student_total += dept_array[i].class_array[j].stud_array[k].s1[l].marks;
+                    scanf("%d", &dept_array[i].class_array[j].stud_array[k].s1[l]);
+                    dept_array[i].class_array[j].stud_array[k].student_total += dept_array[i].class_array[j].stud_array[k].s1[l];
                 }
 
                 if(dept_array[i].class_array[j].class_highest < dept_array[i].class_array[j].stud_array[k].student_total) {
