@@ -32,7 +32,7 @@ int main(){
 		printf("Enter employee name:");
 		scanf("%s",(ptr+i)->name);
 		printf("Enter employee Salary:");
-		scanf("%d",(ptr+i)->basic_salary);
+		scanf("%f",(ptr+i)->basic_salary);
 		(ptr+i)->hra = hra((ptr+i)->basic_salary);
 		(ptr+i)->da = da((ptr+i)->basic_salary);
 		(ptr+i)->gross_salary = grossSalary((ptr+i)->basic_salary,(ptr+i)->hra,(ptr+i)->da);
