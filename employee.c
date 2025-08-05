@@ -45,7 +45,16 @@ int main(){
 	printf("Details of Students are:\n");
 	printf("%-10s | %-10s | %-10s | %-10s | %10s | %10s \n","emp id","name","basic salary","hra","da","gross salary");
 	for(i=0;i<N;i++){
-		printf("%-10d | %-10s | %-10.2f | %-10.2f | %10.2f | %10.2f \n",(ptr+i)->id,,(ptr+i)->basic_salary,(ptr+i)->hra,(ptr+i)->da,)
+		printf("%-10d | %-10s | %-10.2f | %-10.2f | %10.2f | %10.2f \n",(ptr+i)->id,(ptr+i)->name,(ptr+i)->basic_salary,(ptr+i)->hra,(ptr+i)->da,(ptr+i)->gross_salary);
 	}	
+    int maxSal=0;
+    int num=0;
+    for(i=0;i<N;i++){
+		if ((ptr+i)->gross_salary>maxSal){
+            maxSal=(ptr+i)->gross_salary;
+            num=i;
+        }
+	}
+    printf("Maximum salary is %0.2f of %s.",maxSal,(ptr+num)->gross_salary);
 	return 0;
 }
