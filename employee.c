@@ -19,10 +19,6 @@ float grossSalary(float sal,float num1, float num2){
 	return sal+num1+num2;
 }
 
-float richest(struct employees *pointer){
-	
-}
-
 int main(){
 	int N,i;
 	printf("Enter number of employees:");
