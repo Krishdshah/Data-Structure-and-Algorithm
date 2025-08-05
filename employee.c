@@ -38,7 +38,7 @@ int main(){
 		(ptr+i)->gross_salary = grossSalary((ptr+i)->basic_salary,(ptr+i)->hra,(ptr+i)->da);
 		printf("\n\n");
 	}
-	printf("Details of Students are:\n");
+	printf("Details of Employees are:\n");
 	printf("%-10s | %-10s | %-10s | %-10s | %10s | %10s \n","emp id","name","basic salary","hra","da","gross salary");
 	for(i=0;i<N;i++){
 		printf("%-10d | %-10s | %-10.2f | %-10.2f | %10.2f | %10.2f \n",(ptr+i)->id,(ptr+i)->name,(ptr+i)->basic_salary,(ptr+i)->hra,(ptr+i)->da,(ptr+i)->gross_salary);
