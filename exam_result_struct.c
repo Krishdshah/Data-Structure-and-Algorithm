@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 #define stud 2
 
 struct student {
