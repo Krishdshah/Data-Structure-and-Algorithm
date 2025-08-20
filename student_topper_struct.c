@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#define STUD 2
+
 
 struct students {
 	int roll;
@@ -11,8 +13,8 @@ struct students {
 };
 
 int main() {
-	int stud=2;
-	struct students stud_list[stud];
+	int stud = STUD;
+	struct students stud_list[STUD];
 	int i;
 	for (i = 0; i < stud; i++) {
 		printf("Enter roll no of student %d:\n", i + 1);
