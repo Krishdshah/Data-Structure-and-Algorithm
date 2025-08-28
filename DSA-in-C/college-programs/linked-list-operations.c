@@ -115,9 +115,10 @@ int main() {
                 search(&list, val);
                 break;
             case 5:
-                exit(0);
+                return 0;
             default:
                 printf("Invalid choice.\n");
+                
         }
     }
     return 0;
