@@ -78,7 +78,8 @@ int main(){
             printf("Ending program........");
             break;
         }
-        else{
+        else
+        {
             printf("Incorrect input pls reverify");
         }
     }
