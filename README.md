@@ -1,3 +1,23 @@
-# Data-Structure-and-Algorithm
-The repository contains files related to dsa and its associated programs
+# 🚀 Data Structures & Algorithms Practice
 
+![Language](https://img.shields.io/badge/Language-Python%20%7C%20C++%20%7C%20Java-blue)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+## 📖 About
+This repository contains my practice solutions for Data Structures and Algorithms problems. The goal is to improve my problem-solving skills and prepare for technical interviews.
+
+The solutions are organized by topic and sourced from platforms like LeetCode, HackerRank, and GeeksforGeeks.
+
+## 📂 Repository Structure
+
+```text
+📦 DSA-Practice
+ ┣ 📂 Arrays
+ ┣ 📂 Strings
+ ┣ 📂 Linked-Lists
+ ┣ 📂 Trees
+ ┣ 📂 Graphs
+ ┣ 📂 Dynamic-Programming
+ ┣ 📂 Sorting-Searching
+ ┗ 📜 README.md
+📊 Progress TrackerCategorySolvedNotesArrays & Hashing0Two Pointers0Stack & Queue0Trees & Graphs0Dynamic Programming0Total0📝 Recent SolutionsProblemPlatformDifficultyTime ComplexitySpace ComplexitySolutionExample ProblemLeetCode🟢 Easy$O(N)$$O(1)$Code🧠 Concepts Covered[ ] Sorting: Merge, Quick, Heap, Counting.[ ] Searching: Binary Search.[ ] Graphs: BFS, DFS, Dijkstra.[ ] Trees: Traversals, BST.[ ] Advanced: Trie, Union-Find.🤝 ConnectFeel free to star the repo if you find it useful!<p align="center">Created with ❤️</p>
