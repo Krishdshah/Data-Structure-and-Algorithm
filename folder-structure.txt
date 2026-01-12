@@ -1,0 +1,27 @@
+Data-Structure-and-Algorithm
+├── .git/
+├── .gitignore
+├── .vscode/
+├── maths_and_combinatrics
+│   ├── armstrong.py
+│   ├── check_prime.py
+│   ├── count_digits.py
+│   ├── gcd.py
+│   ├── reverse_number.py
+│   └── sieve_of_eratosthenes.py
+├── patterns
+│   ├── floyds_triangle.py
+│   ├── left_half_pyramid.py
+│   ├── right_half_pyramid.py
+│   └── square.py
+├── README.md
+├── recursion
+│   ├── fibonacci_series.py
+│   ├── palindrome_string_check.py
+│   ├── print_n_terms.py
+│   ├── print_reverse_n_terms.py
+│   ├── print_string_5times.py
+│   ├── reverse_an_array.py
+│   └── sum_of_first_N.py
+└── sliding_window_array
+    └── largest_xor.py
