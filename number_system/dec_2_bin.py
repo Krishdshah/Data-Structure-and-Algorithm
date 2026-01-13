@@ -8,3 +8,5 @@ def dec_2_bin(dec_num):
     return binary_number
 
 print(dec_2_bin(10))
+
+#recursion and built in function can also be used
